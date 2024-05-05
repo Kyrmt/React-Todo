@@ -1,0 +1,42 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.todocreate{
+    display: flex;
+    direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    
+    
+}
+
+.todoinput{
+    font-size: 20px;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid lightgrey;
+}
+
+.todobutton{
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: rgb(67, 133, 239);
+    cursor: pointer;
+}
+
+.todobutton:hover{
+    opacity: 80%;
+    transition: 500ms;
+}
